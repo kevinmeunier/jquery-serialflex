@@ -21,7 +21,7 @@ Make sure [jQuery](http://jquery.com) is properly loaded before using jQuery ser
 
 
 ## Basic Usage
-The basic usage of serialflex is pretty easy, just start using jQuery serialflex by calling it after page load. It works form radio, checkbox, and select.
+The basic usage of serialflex is pretty easy, just start using jQuery serialflex by calling it after page load. It works form radio, checkbox, and select. A custom name inside the attribute "data-serialflex" is needed to create the group of elements.
 ```HTML
 <ul>
   <li><p data-serialflex="customname">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
